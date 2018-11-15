@@ -1,0 +1,24 @@
+{
+  "name": "senti-docs",
+  "version": "1.0.0",
+  "description": "Senti documentation collected from multiple repos to a single overview",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senti-platform/senti-docs.git"
+  },
+  "keywords": [
+    "Senti",
+    "Senti.Cloud",
+    "IoT",
+    "IoT-platform",
+    "Docs"
+  ],
+  "author": "Christian Broberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/senti-platform/senti-docs/issues"
+  },
+  "homepage": "https://github.com/senti-platform/senti-docs#readme"
+}
