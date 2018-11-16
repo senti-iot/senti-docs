@@ -1,4 +1,9 @@
-# Senti Docs Todo Global
+---
+id: todo-global
+title: Senti Docs Global Todo
+---
+
+# Senti Docs Global Todo
 
 Stuff here have not found a place in a repo yet. 
 

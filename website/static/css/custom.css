@@ -24,16 +24,34 @@ html {
     -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+	background: #eee;
+}
+
+.copyright a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* .navPusher div {
+    left: 0;
+    min-height: 100%;
+    padding-top: 100px;
+    position: relative;
+	z-index: 99;
+	background: #434351;
+} */
+
 .fixedHeaderContainer {
     background: #1a1b32;
     color: #fff;
-    min-height: 60px;
-    padding: 12px 0;
+    min-height: 70px;
+    padding: 18px 15px;
     position: fixed;
     width: 100%;
     z-index: 9999;
 }
-
+/* 
 .fixedHeaderContainer header .headerTitleWithLogo {
     display: block;
     font-size: 1.25em;
@@ -42,8 +60,8 @@ html {
     position: relative;
 	z-index: 9999;
 	color: #1a1a1a;
-	/* The color is to hide the header text */
-}
+} 
+*/
 
 /* a {
     color: #1a1a1a;

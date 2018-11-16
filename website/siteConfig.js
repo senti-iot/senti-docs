@@ -30,14 +30,17 @@ const siteConfig = {
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
+  cname: 'docs.senti.cloud',
+
   // Used for publishing and more
-  defaultVersionShown: '1.0.0',
-  projectName: 'Senti IoT',
+//   defaultVersionShown: '1.0.0',
+  projectName: 'senti-docs',
   organizationName: 'Senti.Cloud',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
+  disableHeaderTitle: true,
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
@@ -58,9 +61,7 @@ const siteConfig = {
   /* Colors for website */
   colors: {
     primaryColor: '#1a1b32',
-    // primaryColor: '#2E8555',
     secondaryColor: '#37a891',
-    // secondaryColor: '#205C3B',
   },
 
   /* Custom fonts for website */
@@ -81,7 +82,7 @@ const siteConfig = {
   blogSidebarTitle: { default: 'Recent posts', all: 'All blog posts' },
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Senti.Cloud`,
+  copyright: `Copyright © 2017-${new Date().getFullYear()} Senti.Cloud`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

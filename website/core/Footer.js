@@ -57,7 +57,7 @@ class Footer extends React.Component {
             </a>
             <a href="https://discordapp.com/">Project Chat</a>
             <a
-              href="https://twitter.com/"
+              href="https://twitter.com/senti_iot"
               target="_blank"
               rel="noreferrer noopener">
               Twitter
@@ -71,7 +71,7 @@ class Footer extends React.Component {
               className="github-button"
               href={this.props.config.repoUrl}
               data-icon="octicon-star"
-              data-count-href="/senti-platform/senti-console/stargazers"
+			  data-count-href="https://github.com/senti-platform/senti-console/stargazers"
               data-show-count="true"
               data-count-aria-label="# stargazers on GitHub"
               aria-label="Star this project on GitHub">
@@ -80,7 +80,7 @@ class Footer extends React.Component {
           </div>
         </section>
 
-        <a
+        {/* <a
           href="https://code.facebook.com/projects/"
           target="_blank"
           rel="noreferrer noopener"
@@ -91,8 +91,12 @@ class Footer extends React.Component {
             width="170"
             height="45"
           />
-        </a>
-        <section className="copyright">{this.props.config.copyright}</section>
+        </a> */}
+		<section className="copyright">
+			<a href={this.pageUrl('https://senti.cloud/', this.props.language)}>
+				{this.props.config.copyright}
+            </a>
+		</section>
       </footer>
     );
   }
