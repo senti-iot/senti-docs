@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Senti IoT', // Title for your website.
-  tagline: 'Senti IoT - the open source IoT-platform',
+  title: 'Senti.Cloud', // Title for your website.
+  tagline: 'Senti.Cloud - the open source IoT-platform',
 //   url: 'https://docs.senti.cloud', // Your website URL
   url: 'https://senti.cloud', // Your website URL
   baseUrl: '/', // Base URL for your project */

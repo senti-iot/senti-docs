@@ -80,6 +80,10 @@ class HomeSplash extends React.Component {
         {/* <Logo img_src={imgUrl('senti-square.svg')} /> */}
         <div className="inner">
           <ProjectTitle />
+			<div>
+				<h2>Senti means “to sense”.</h2>
+				<p><i>Senti is an open source Internet of Things platform, that enables you to sense and<br/> collect knowledge about people and states in a selected environment.</i></p>
+			</div>
           <PromoSection>
             <Button href="#try">Try It Out</Button>
             <Button href={docUrl('doc1.html', language)}>Example Link</Button>
@@ -104,16 +108,16 @@ const Features = () => (
   <Block layout="fourColumn">
     {[
       {
-        content: 'This is the content of my feature',
+		content: 'Senti is the infrastructure you need to develop, deploy, and manage fleets of connected devices at scale.',
         image: imgUrl('senti-square.svg'),
         imageAlign: 'top',
-        title: 'Feature One',
+		title: 'Build your IoT project with Senti',
       },
       {
-        content: 'The content of my second feature',
+		  content: 'Senti.Cloud is a managed platform-as-a-service to easily and securely connect, manage, and ingest data from connected devices.',
         image: imgUrl('senti-square.svg'),
         imageAlign: 'top',
-        title: 'Feature Two',
+        title: 'A fully managed service',
       },
     ]}
   </Block>

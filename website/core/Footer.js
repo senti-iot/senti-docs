@@ -22,7 +22,7 @@ class Footer extends React.Component {
     return (
       <footer className="nav-footer" id="footer">
         <section className="sitemap">
-          <a href={this.props.config.baseUrl} className="nav-home">
+          {/* <a href={this.props.config.baseUrl} className="nav-home">
             {this.props.config.footerIcon && (
               <img
                 src={this.props.config.baseUrl + this.props.config.footerIcon}
@@ -31,7 +31,7 @@ class Footer extends React.Component {
                 height="58"
               />
             )}
-          </a>
+          </a> */}
           <div>
             <h5>Docs</h5>
             <a href={this.docUrl('doc1.html', this.props.language)}>
@@ -49,13 +49,13 @@ class Footer extends React.Component {
             <a href={this.pageUrl('users.html', this.props.language)}>
               User Showcase
             </a>
-            <a
+            {/* <a
               href="http://stackoverflow.com/questions/tagged/"
               target="_blank"
               rel="noreferrer noopener">
               Stack Overflow
             </a>
-            <a href="https://discordapp.com/">Project Chat</a>
+            <a href="https://discordapp.com/">Project Chat</a> */}
             <a
               href="https://twitter.com/senti_iot"
               target="_blank"
@@ -71,7 +71,7 @@ class Footer extends React.Component {
               className="github-button"
               href={this.props.config.repoUrl}
               data-icon="octicon-star"
-			  data-count-href="https://github.com/senti-platform/senti-console/stargazers"
+			  data-count-href="https://github.com/senti-platform/senti-docs/stargazers"
               data-show-count="true"
               data-count-aria-label="# stargazers on GitHub"
               aria-label="Star this project on GitHub">
@@ -80,21 +80,23 @@ class Footer extends React.Component {
           </div>
         </section>
 
-        {/* <a
-          href="https://code.facebook.com/projects/"
+        <a
+          href="https://senti.cloud/"
           target="_blank"
           rel="noreferrer noopener"
           className="fbOpenSource">
           <img
-            src={`${this.props.config.baseUrl}img/oss_logo.png`}
-            alt="Facebook Open Source"
-            width="170"
-            height="45"
+			src={`${this.props.config.baseUrl}img/senti-logo.svg`}
+            alt="Senti Open Source"
+            width="250"
+            // height="45"
           />
-        </a> */}
+        </a>
 		<section className="copyright">
-			<a href={this.pageUrl('https://senti.cloud/', this.props.language)}>
-				{this.props.config.copyright}
+			<a href="https://senti.cloud/"
+				target="_blank"
+				rel="noreferrer noopener">
+			{this.props.config.copyright}
             </a>
 		</section>
       </footer>
