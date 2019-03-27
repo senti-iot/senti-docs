@@ -1,5 +1,8 @@
 # Topic structure 
 
+- http://www.steves-internet-guide.com/mqtt-topic-payload-design-notes/
+- https://github.com/mqtt-smarthome/mqtt-smarthome/blob/master/Architecture.md 
+
 ## Topics Sensors Hierarchy
 
 - senti/sensor/type/id/ (root)

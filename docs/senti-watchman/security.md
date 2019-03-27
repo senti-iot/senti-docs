@@ -17,7 +17,9 @@
 ## Mosquitto Broker TLS/SSL security
 - https://mosquitto.org/man/mosquitto-tls-7.html
 - https://primalcortex.wordpress.com/2016/03/31/mqtt-mosquitto-broker-with-ssltls-transport-security/
+- https://mcuoneclipse.com/2017/04/14/enable-secure-communication-with-tls-and-the-mosquitto-broker/
 - https://dzone.com/articles/mqtt-security-securing-a-mosquitto-server
+- https://dzone.com/articles/secure-communication-with-tls-and-the-mosquitto-broker
 - http://www.steves-internet-guide.com/mosquitto-tls/
 
 ## Mosquitto/MQTT.js client TLS/SSL security
